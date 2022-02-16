@@ -31,4 +31,4 @@ Display information
 
 ---
 
-![](https://imgs.xkcd.com/comics/containers_2x.png)
+background-image: url(https://imgs.xkcd.com/comics/containers_2x.png)
