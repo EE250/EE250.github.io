@@ -31,4 +31,4 @@ Display information
 
 ---
 
-background: contain url(https://imgs.xkcd.com/comics/containers_2x.png)
+background: no-repeat center/contain url("https://imgs.xkcd.com/comics/containers_2x.png");
