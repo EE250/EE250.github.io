@@ -31,7 +31,4 @@ Display information
 
 ---
 
-
-![](https://imgs.xkcd.com/comics/containers_2x.png)
-
 <img src="https://imgs.xkcd.com/comics/containers_2x.png" style="max-width: 100%; max-height: 100%">
