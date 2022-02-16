@@ -25,6 +25,6 @@ Display information
 **A**pplication **P**rogramming **I**nterface
 
 ???
-Interface: a way of talking
-Programming: it's for programmers!
-Application: lets you make things!
+- Interface: a way of talking
+- Programming: it's for programmers!
+- Application: lets you make things!
