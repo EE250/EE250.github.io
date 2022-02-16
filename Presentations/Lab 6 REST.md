@@ -31,4 +31,4 @@ Display information
 
 ---
 
-background-image: url(https://imgs.xkcd.com/comics/containers_2x.png)
+background: contain url(https://imgs.xkcd.com/comics/containers_2x.png)
