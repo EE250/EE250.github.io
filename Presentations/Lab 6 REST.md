@@ -28,3 +28,7 @@ Display information
 - Interface: a way of talking
 - Programming: it's for programmers!
 - Application: lets you make things!
+
+---
+
+![](https://imgs.xkcd.com/comics/containers_2x.png)
