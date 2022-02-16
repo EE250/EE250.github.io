@@ -31,4 +31,4 @@ Display information
 
 ---
 
-<img src="https://imgs.xkcd.com/comics/containers_2x.png" style="max-width: 100%; max-height: 100%">
+<div style="width: 100%; height: 100%; background-image: url(https://imgs.xkcd.com/comics/containers_2x.png);background-repeat: no-repeat; background-size: contain;"></div>
