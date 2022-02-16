@@ -31,4 +31,7 @@ Display information
 
 ---
 
-background: no-repeat center/contain url("https://imgs.xkcd.com/comics/containers_2x.png");
+max-width: 100%
+max-height: 100%
+
+![](https://imgs.xkcd.com/comics/containers_2x.png)
