@@ -168,3 +168,7 @@ class: middle, center
 
 ???
 see if we need to talk about API keys?
+
+Additional popular APIs to demonstrate widespread use:
+- https://www.dropbox.com/developers/documentation/http/documentation#check-user
+- https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/api-reference
