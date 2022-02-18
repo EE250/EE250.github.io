@@ -1,6 +1,8 @@
 # 1. Setup
 ### 1a) Linux Virtual Machine
 
+To ensure all students use the same coding environment, we require students to use a Linux Virtual Machine.
+
 Install any one of the following Virtual Machine Hypervisors on your Laptop/Desktop.
 
 1. [VMware Fusion (Provided by VMWare Academic Program)](https://viterbiit.usc.edu/services/hardware-software/vmware-academic-program/)
