@@ -4,6 +4,8 @@
 To ensure all students have the same coding environment, we require students to use a Linux Virtual Machine.
 
 Install one of these Virtual Machine Hypervisors on your laptop:
+- [UTM](https://mac.getutm.app/)
+    - **Required** for Apple Silicon (M1) Macs
 - [VMware Fusion (Provided by VMWare Academic Program)](https://viterbiit.usc.edu/services/hardware-software/vmware-academic-program/)
     - recommended for Macbook users
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
