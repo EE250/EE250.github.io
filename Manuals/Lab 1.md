@@ -41,7 +41,15 @@ To use your Raspberry, we need to install the Raspberry Pi Operating System (OS)
 2. Download the Legacy Raspberry Pi OS [here](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy)
 
 3. Use Etcher to flash the downloaded OS onto your microSD card.
-- **Important**: this erases the disk. Make sure you do not have important information on the microSD card, and do **not** flash your computer's hard drive!
+    1. Plug your microSD card into your laptop
+    2. Start balenaEtcher
+    3. Click Flash from File
+    4. Select the file - `2021-01-11-raspios-buster-armhf-full.img` (or similar)
+    5. Click Select target
+    6. Locate your SD Card Reader
+        - **Important**: this will erase the target disk. Make sure you do not have important information on the microSD card, and do **not** flash your computer's hard drive!
+    7. Click Flash and wait till it the process completes 
+
 
 ### 1e) Start your Raspberry Pi
 1. Insert the microSD card into the Raspberry Pi
