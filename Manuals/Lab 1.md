@@ -16,7 +16,7 @@ Setup a new virtual machine and install Ubuntu using the ISO file downloaded in 
 
 If you have not, please set up a GitHub account [connected to your USC account](https://bytes.usc.edu/github-signup/).
 
-###### 6. Text Editors 
+### Text Editors 
 
 You may want to edit your code on your Virtual Machine.
 
@@ -26,18 +26,15 @@ To do this, please install any one of these on your VM:
 3. [Sublime Text 2/3](https://www.sublimetext.com/)
 4. [Micro Editor](https://micro-editor.github.io)(optional,recommended)
  
-###### 7. Flashing Raspberry Pi OS
+### Flashing Raspberry Pi OS
 
-1. Install Etcher(recommended) from [here](https://www.balena.io/etcher/) on
-your host OS(Win/MacOS/etc.)
+To make your Raspberry Pi work, we need to install the Raspberry Pi Operating System on your SD Card.
 
-OR install rpi-imager using the
- command `sudo apt install rpi-imager` on your Ubuntu VM
+1. Install Etcher(recommended) from [here](https://www.balena.io/etcher/) on your host OS(Win/MacOS/etc.)
+<!-- In future, if Etcher ends support, we may opt to use `sudo apt install rpi-imager` on the Ubuntu VM -->
 
 2. Depending on if you want to use a display and keyboard with your RPi,
  download the appropriate Raspberry Pi OS from [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit)
-  
-
 
 ###### 8. SSH from Ubuntu VM to Raspberry Pi (RPi)
 - `ssh pi@raspberry`
