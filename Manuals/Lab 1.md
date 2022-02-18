@@ -48,7 +48,7 @@ To use your Raspberry, we need to install the Raspberry Pi Operating System (OS)
     5. Click Select target
     6. Locate your SD Card Reader
         - **Important**: this will erase the target disk. Make sure you do not have important information on the microSD card, and do **not** flash your computer's hard drive!
-    7. Click Flash and wait till it the process completes 
+    7. Click Flash and wait (~10 minutes)
 
 
 ### 1e) Start your Raspberry Pi
@@ -56,7 +56,7 @@ To use your Raspberry, we need to install the Raspberry Pi Operating System (OS)
 2. Power on the Raspberry Pi
     -  you should see a red light on the Raspberry Pi, indicating it is powered
 3. Look for a green flashing light on the Pi
-    - this indicates the Raspberry Pi is ready to use
+    - this indicates the Raspberry Pi is booting
 
 # Using Secure Shell (SSH)
 ### Enable SSH on the Raspberry Pi
