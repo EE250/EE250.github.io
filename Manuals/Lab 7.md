@@ -31,20 +31,21 @@ Export the schematic to a png file, name it adc_circuit_schematic.png  this will
 
 **Question 2**:  Say for some reason a non-uniform ADC is desired, such that analog input  values from 0 to 12 volts result in “00”, values from 12 to 15 volts result in “01”, values from 15 to 18 volts result in “10” and values from 18 to 20 volts result in “11”.  
 
-*What should the values of the 4 resistors be in order to make this happen? *
+*What should the values of the 4 resistors be in order to make this happen?*
 
-**Question 3**: *How many resistors are needed if you wanted to extend this design to make an 8-bit ADC?  *
+**Question 3**: *How many resistors are needed if you wanted to extend this design to make an 8-bit ADC?*
 
 ### Part 2: Digital to Analog Converter (DAC)
 
 Your second task is to create and simulate a 3-bit binary weighted resistor DAC. Read and recreate the circuit described in the following tutorial:
  https://www.electronics-tutorial.net/analog-integrated-circuits/data-converters/binary-weighted-resistor-dac/
 
-Let the 3-bit input digital voltages be each represented by 5 volts for 1 and 0 volts for a “0”. Use a single pole double throw (SPDT) switch to set each input bit to either “0” or “1”. 
+Let the 3-bit input digital voltages be each represented by 5 volts for 1 and 0 volts for a “0”. 
+Use a single pole double throw (SPDT) switch to set each input bit to either “0” or “1”. 
 
 At the output of the circuit, add an inverting op-amp with appropriate choice of resistors (see https://www.electronics-tutorial.net/amplifier/inverting-amplifier/) so that the final output voltage is between 0 to 20 volts. 
 
-Export the schematic to a png file, name it dac_circuit_schematic.png  this will be part of your submission. 
+Export the schematic to a png file, name it `dac_circuit_schematic.png`. This will be part of your submission. 
 
 **Question 4**: *If you were to extend the circuit design to an 8-bit DAC, how many resistors would it require?*   
 
@@ -60,7 +61,6 @@ For recording your demo video we recommend using Zoom.
 | 1      | Circuit schematic for DAC looks clean and professional |
 | 4      | For the ADC circuit, with all resistors set to the same value, show the 2-bit output is correct -using a voltage probe- for four different values of the input corresponding to each possible output value. |
 | 4      | Show using a voltage probe that the output is correct for all 8 possible values of the 3-bit input in the DAC circuit. |
-
 | 2      | Question 1 |
 | 2      | Question 2 |
 | 2      | Question 3 |
