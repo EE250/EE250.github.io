@@ -55,7 +55,7 @@ Export the schematic to a png file, name it `dac_circuit_schematic.png`. This wi
 
 **Question 5**: Say you were to extend the circuit design to an 8-bit DAC and the smallest resistor in the weighted binary resistor bank had the value of 1kohm. *What would be the value of the largest resistor in the weighted binary resistor bank?*
 
-### Demo and Code Grading Rubric
+### Rubrics
 All files are to be submitted via Vocareum in teams. 
 For recording your demo video we recommend using Zoom.
 
