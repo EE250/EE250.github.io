@@ -7,7 +7,7 @@ Files to submit via Vocareum:
 - `Lab07_writeup.txt`
 - include a link to a video (with narration) of your lab demo. Please check the rubric for what your video must demonstrate.
 
-Students in teams must submit on Vocareum as a team:
+Students in teams must submit on Vocareum as a team.
 
 ### Introduction
 This lab gets you to create schematics for and simulate two circuits that we have discussed in class. The first circuit will be an analog to digital converter (ADC) that will take an analog voltage signal and output the corresponding digital output in bits. The second circuit is a digital to analog converter (DAC) that will do the reverse operation - take a set of bits and produce an analog voltage corresponding to the input. 
