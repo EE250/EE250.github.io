@@ -33,8 +33,7 @@ To make your Raspberry Pi work, we need to install the Raspberry Pi Operating Sy
 1. Install Etcher(recommended) from [here](https://www.balena.io/etcher/) on your host OS(Win/MacOS/etc.)
 <!-- In future, if Etcher ends support, we may opt to use `sudo apt install rpi-imager` on the Ubuntu VM -->
 
-2. Depending on if you want to use a display and keyboard with your RPi,
- download the appropriate Raspberry Pi OS from [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit)
+2. Download the Legacy Raspberry Pi OS [here](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy)
 
 ###### 8. SSH from Ubuntu VM to Raspberry Pi (RPi)
 - `ssh pi@raspberry`
