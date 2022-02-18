@@ -29,12 +29,15 @@ To do this, please install any one of these on your VM:
  
 ### 1d) Flashing Raspberry Pi OS
 
-To make your Raspberry Pi work, we need to install the Raspberry Pi Operating System on your SD Card.
+To make your Raspberry Pi work, we need to install the Raspberry Pi Operating System (OS) on your SD Card.
 
 1. Install Etcher(recommended) from [here](https://www.balena.io/etcher/) on your host OS(Win/MacOS/etc.)
 <!-- In future, if Etcher ends support, we may opt to use `sudo apt install rpi-imager` on the Ubuntu VM -->
 
 2. Download the Legacy Raspberry Pi OS [here](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy)
+
+3. Use Etcher to flash the downloaded OS onto your SD card.
+- **Important**: this erases the disk! Make sure you do not have important information on the SD card, and do **not** flash your computer's hard drive!
 
 # Using Secure Shell (SSH)
 ### Enable SSH on the Raspberry Pi
