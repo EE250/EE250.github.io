@@ -19,7 +19,7 @@ Once you create an account, log in and select “Create Circuit”. You can now 
 
 ### Part 1: Analog to Digital Converter (ADC)
 
-Your first task is to create and simulate a parallel comparator type ADC, also known as a Flash-type ADC. Read and recreate the circuit described in the following tutorial which converts an input voltage to 2 bits: https://www.electronics-tutorial.net/analog-integrated-circuits/data-converters/flash-type-adc/
+Your first task is to create and simulate a parallel comparator type ADC, also known as a Flash-type ADC. Read and recreate the circuit described in [this tutorial](https://www.electronics-tutorial.net/analog-integrated-circuits/data-converters/flash-type-adc/) which converts an input voltage to 2 bits.
 
 Use a DC voltage source providing 20 volts for the circuit (V). And use another DC voltage source to the analog input voltage (Vin). For the digital logic gates, have the high voltage correspond to 5 volts, and low to 0 volts.  Connect voltage probes to the output of the logic gates. 
 
