@@ -1,4 +1,5 @@
-### Linux Virtual Machine
+# 1. Setup
+### 1a) Linux Virtual Machine
 
 Install any one of the following Virtual Machine Hypervisors on your Laptop/Desktop.
 
@@ -12,11 +13,11 @@ Download any one of the following Ubuntu Desktop Flavours.
 
 Setup a new virtual machine and install Ubuntu using the ISO file downloaded in previous step.
 
-### Git and Github
+### 1b) Git and Github
 
 If you have not, please set up a GitHub account [connected to your USC account](https://bytes.usc.edu/github-signup/).
 
-### Text Editors 
+### 1c) Text Editors 
 
 You may want to edit your code on your Virtual Machine.
 
@@ -26,7 +27,7 @@ To do this, please install any one of these on your VM:
 3. [Sublime Text 2/3](https://www.sublimetext.com/)
 4. [Micro Editor](https://micro-editor.github.io)(optional,recommended)
  
-### Flashing Raspberry Pi OS
+### 1d) Flashing Raspberry Pi OS
 
 To make your Raspberry Pi work, we need to install the Raspberry Pi Operating System on your SD Card.
 
@@ -35,7 +36,8 @@ To make your Raspberry Pi work, we need to install the Raspberry Pi Operating Sy
 
 2. Download the Legacy Raspberry Pi OS [here](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy)
 
-###### 8. SSH from Ubuntu VM to Raspberry Pi (RPi)
+# Using Secure Shell (SSH)
+### Enable SSH on the Raspberry Pi
 - `ssh pi@raspberry`
 - `ssh pi@raspberry.local`
 - `ssh pi@AA.BB.CC.DD` where AA.BB.CC.DD is the IPv4 address of the RPi.
