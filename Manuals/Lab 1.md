@@ -3,14 +3,13 @@
 
 To ensure all students use the same coding environment, we require students to use a Linux Virtual Machine.
 
-Install any one of the following Virtual Machine Hypervisors on your Laptop/Desktop.
+Install one of these Virtual Machine Hypervisors on your laptop:
+- [VMware Fusion (Provided by VMWare Academic Program)](https://viterbiit.usc.edu/services/hardware-software/vmware-academic-program/)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-1. [VMware Fusion (Provided by VMWare Academic Program)](https://viterbiit.usc.edu/services/hardware-software/vmware-academic-program/)
-2. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-
-Download any one of the following Ubuntu Desktop Flavours. 
-1. [Ubuntu Official Download](https://ubuntu.com/download/desktop#download)
-2. [Ubuntu Mate](https://ubuntu-mate.org/download/)
+Download one of these Ubuntu Desktop flavours:
+- [Ubuntu Official Download](https://ubuntu.com/download/desktop#download)
+- [Ubuntu Mate](https://ubuntu-mate.org/download/)
   - better for older machines
 
 Setup a new virtual machine and install Ubuntu using the ISO file downloaded in previous step.
