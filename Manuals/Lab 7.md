@@ -29,7 +29,11 @@ First verify that  with the circuit, analog input voltage values from 0 to 5 vol
 
 Export the schematic to a png file, name it adc_circuit_schematic.png  this will be part of your submission. 
 
-**Question 2**:  Say for some reason a non-uniform ADC is desired, such that analog input  values from 0 to 12 volts result in “00”, values from 12 to 15 volts result in “01”, values from 15 to 18 volts result in “10” and values from 18 to 20 volts result in “11”.  
+**Question 2**:  Say for some reason a non-uniform ADC is desired, such that 
+- analog input values from 0 to 12 volts result in “00”
+- values from 12 to 15 volts result in “01”
+- values from 15 to 18 volts result in “10” 
+- values from 18 to 20 volts result in “11”
 
 *What should the values of the 4 resistors be in order to make this happen?*
 
