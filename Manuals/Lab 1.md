@@ -14,14 +14,13 @@ Setup a new virtual machine and install Ubuntu using the ISO file downloaded in 
 
 ### Git and Github
 
-You must already have a Github account by now.
-
-[understanding Git](https://hackernoon.com/understanding-git-fcffd87c15a3)
-[Git Branching Tutorial](https://learngitbranching.js.org/)
+If you have not, please set up a GitHub account [connected to your USC account](https://bytes.usc.edu/github-signup/).
 
 ###### 6. Text Editors 
 
-Install any one of the Editors 
+You may want to edit your code on your Virtual Machine.
+
+To do this, please install any one of these on your VM:
 1. [VS code by Microsoft](https://code.visualstudio.com/)(recommended)
 2. [Atom Editor](https://atom.io/)
 3. [Sublime Text 2/3](https://www.sublimetext.com/)
@@ -58,6 +57,7 @@ install by following the instructions at [Micro Editor](https://micro-editor.git
 If you wish, you may install micro terminal editor on your Ubuntu VM as well. 
 
 ### Resources
-[Overcoming Command-Line |Prof. Phillip Guo Blog Link](https://pg.ucsd.edu/command-line-bullshittery.htm)
-
+- [Overcoming Command-Line |Prof. Phillip Guo Blog Link](https://pg.ucsd.edu/command-line-bullshittery.htm)
+- [Understanding Git](https://hackernoon.com/understanding-git-fcffd87c15a3)
+- [Git Branching Tutorial](https://learngitbranching.js.org/)
 
