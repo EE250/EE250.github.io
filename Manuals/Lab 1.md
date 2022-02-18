@@ -38,7 +38,7 @@ To use your Raspberry, we need to install the Raspberry Pi Operating System (OS)
 1. Install Etcher(recommended) from [here](https://www.balena.io/etcher/) on your host OS (Win/MacOS/etc.)
 <!-- In future, if Etcher ends support, we may opt to use `sudo apt install rpi-imager` on the Ubuntu VM -->
 
-2. Download the Legacy Raspberry Pi OS [here](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy)
+2. Download the **Legacy** Raspberry Pi OS [here](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy)
 
 3. Use Etcher to flash the downloaded OS onto your microSD card.
     1. Plug your microSD card into your laptop
