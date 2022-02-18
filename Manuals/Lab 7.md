@@ -64,7 +64,7 @@ For recording your demo video we recommend using Zoom.
 | 1              | Circuit schematic for ADC looks clean and professional |
 | 1              | Circuit schematic for DAC looks clean and professional |
 | **Demo Video** |             |
-| 4              | For the ADC circuit, with all resistors set to the same value, show the 2-bit output is correct -using a voltage probe- for four different values of the input corresponding to each possible output value. |
+| 4              | For the ADC circuit, with all resistors set to the same value, show the 2-bit output is correct using a voltage probe for four different values of the input corresponding to each possible output value. |
 | 4              | Show using a voltage probe that the output is correct for all 8 possible values of the 3-bit input in the DAC circuit. |
 | **Questions**  |             |
 | 2              | Question 1 |
