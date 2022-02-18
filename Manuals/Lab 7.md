@@ -52,7 +52,9 @@ Export the schematic to a png file, name it `dac_circuit_schematic.png`. This wi
 
 **Question 4**: *If you were to extend the circuit design to an 8-bit DAC, how many resistors would it require?*   
 
-**Question 5**: Say you were to extend the circuit design to an 8-bit DAC and the smallest resistor in the weighted binary resistor bank had the value of 1kohm. *What would be the value of the largest resistor in the weighted binary resistor bank?*
+**Question 5**: Say you were to extend the circuit design to an 8-bit DAC and the smallest resistor in the weighted binary resistor bank had the value of 1kohm. 
+
+*What would be the value of the largest resistor in the weighted binary resistor bank?*
 
 ### Rubrics
 All files are to be submitted via Vocareum in teams. 
