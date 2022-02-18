@@ -15,7 +15,7 @@ This lab gets you to create schematics for and simulate two circuits that we hav
 ### Setup
 For this lab you will need to first get yourself a free account on https://www.multisim.com/
 
-Once you create an account, log in and select “Create Circuit”. You can now drag and drop the parts from the menu on the left on to the schematic editor, and wire them up using the wiring tool.  Go through the getting started tutorial on the multisim site to become familiar with the editor: https://www.multisim.com/get-started/
+Once you create an account, log in and select “Create Circuit”. You can now drag and drop the parts from the menu on the left on to the schematic editor, and wire them up using the wiring tool.  Go through the [getting started tutorial](https://www.multisim.com/get-started/) on the multisim site to become familiar with the editor.
 
 ### Part 1: Analog to Digital Converter (ADC)
 
