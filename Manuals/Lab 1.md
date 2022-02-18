@@ -1,10 +1,11 @@
 # 1. Setup
 ### 1a) Linux Virtual Machine
 
-To ensure all students use the same coding environment, we require students to use a Linux Virtual Machine.
+To ensure all students have the same coding environment, we require students to use a Linux Virtual Machine.
 
 Install one of these Virtual Machine Hypervisors on your laptop:
 - [VMware Fusion (Provided by VMWare Academic Program)](https://viterbiit.usc.edu/services/hardware-software/vmware-academic-program/)
+    - recommended for Macbook users
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 Download one of these Ubuntu Desktop flavours:
@@ -30,15 +31,22 @@ To do this, please install any one of these on your VM:
  
 ### 1d) Flashing Raspberry Pi OS
 
-To make your Raspberry Pi work, we need to install the Raspberry Pi Operating System (OS) on your SD Card.
+To use your Raspberry, we need to install the Raspberry Pi Operating System (OS) on your microSD Card.
 
-1. Install Etcher(recommended) from [here](https://www.balena.io/etcher/) on your host OS(Win/MacOS/etc.)
+1. Install Etcher(recommended) from [here](https://www.balena.io/etcher/) on your host OS (Win/MacOS/etc.)
 <!-- In future, if Etcher ends support, we may opt to use `sudo apt install rpi-imager` on the Ubuntu VM -->
 
 2. Download the Legacy Raspberry Pi OS [here](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy)
 
-3. Use Etcher to flash the downloaded OS onto your SD card.
-- **Important**: this erases the disk! Make sure you do not have important information on the SD card, and do **not** flash your computer's hard drive!
+3. Use Etcher to flash the downloaded OS onto your microSD card.
+- **Important**: this erases the disk. Make sure you do not have important information on the microSD card, and do **not** flash your computer's hard drive!
+
+### 1e) Start your Raspberry Pi
+1. Insert the microSD card into the Raspberry Pi
+2. Power on the Raspberry Pi
+    -  you should see a red light on the Raspberry Pi, indicating it is powered
+3. Look for a green flashing light on the Pi
+    - this indicates the Raspberry Pi is ready to use
 
 # Using Secure Shell (SSH)
 ### Enable SSH on the Raspberry Pi
