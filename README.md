@@ -2,7 +2,7 @@
 Central Knowledge Base for USC EE250 CPs
 
 ### Manuals
-- [Lab 7](./Manuals/Lab 7.md)
+- [Lab 7](Manuals/Lab 7.md)
 
 ### FAQs
 2022 Spring
