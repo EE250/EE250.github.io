@@ -1,7 +1,3 @@
-###### 3. Overcoming Command Line
-[Overcoming Command-Line |Prof. Phillip Guo Blog Link](https://pg.ucsd.edu/command-line-bullshittery.htm)
-
-
 ### Linux Virtual Machine
 
 Install any one of the following Virtual Machine Hypervisors on your Laptop/Desktop.
@@ -13,14 +9,9 @@ Download any one of the following Ubuntu Desktop Flavours. 1. [Ubuntu Official D
 2. [Ubuntu Mate](https://ubuntu-mate.org/download/)
   - better for older machines
 
-
 Setup a new virtual machine and install Ubuntu using the ISO file downloaded in previous step.
 
-![choice](labs/lab1/OSredpillbluepill.jpg)
-*Blue Pill or Red Pill?*
-
-
-###### 5. Using Git and Github
+### Git and Github
 
 You must already have a Github account by now.
 
@@ -64,3 +55,8 @@ Install using the command `sudo apt install micro` OR
 install by following the instructions at [Micro Editor](https://micro-editor.github.io/)
 
 If you wish, you may install micro terminal editor on your Ubuntu VM as well. 
+
+### Resources
+[Overcoming Command-Line |Prof. Phillip Guo Blog Link](https://pg.ucsd.edu/command-line-bullshittery.htm)
+
+
