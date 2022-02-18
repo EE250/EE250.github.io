@@ -58,7 +58,7 @@ To use your Raspberry, we need to install the Raspberry Pi Operating System (OS)
 3. Look for a green flashing light on the Pi
     - this indicates the Raspberry Pi is booting
 
-# Using Secure Shell (SSH)
+# 2. Using Secure Shell (SSH)
 ### Enable SSH on the Raspberry Pi
 - `ssh pi@raspberry`
 - `ssh pi@raspberry.local`
