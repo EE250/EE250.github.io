@@ -5,7 +5,8 @@ Install any one of the following Virtual Machine Hypervisors on your Laptop/Desk
 1. [VMware Fusion (Provided by VMWare Academic Program)](https://viterbiit.usc.edu/services/hardware-software/vmware-academic-program/)
 2. [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
-Download any one of the following Ubuntu Desktop Flavours. 1. [Ubuntu Official Download](https://ubuntu.com/download/desktop#download)
+Download any one of the following Ubuntu Desktop Flavours. 
+1. [Ubuntu Official Download](https://ubuntu.com/download/desktop#download)
 2. [Ubuntu Mate](https://ubuntu-mate.org/download/)
   - better for older machines
 
