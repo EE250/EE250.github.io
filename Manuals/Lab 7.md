@@ -41,12 +41,12 @@ Export the schematic to a png file, name it adc_circuit_schematic.png  this will
 
 ### Part 2: Digital to Analog Converter (DAC)
 
-Your second task is to create and simulate a 3-bit binary weighted resistor DAC. Read and recreate the circuit described [here](https://www.electronics-tutorial.net/analog-integrated-circuits/data-converters/binary-weighted-resistor-dac/)
+Your second task is to create and simulate a 3-bit binary weighted resistor DAC. Read and recreate the circuit described [here](https://www.electronics-tutorial.net/analog-integrated-circuits/data-converters/binary-weighted-resistor-dac/).
 
 Let the 3-bit input digital voltages be each represented by 5 volts for 1 and 0 volts for a “0”. 
 Use a single pole double throw (SPDT) switch to set each input bit to either “0” or “1”. 
 
-At the output of the circuit, add an inverting op-amp with appropriate choice of resistors (see https://www.electronics-tutorial.net/amplifier/inverting-amplifier/) so that the final output voltage is between 0 to 20 volts. 
+At the output of the circuit, add an inverting op-amp with [appropriate choice of resistors](https://www.electronics-tutorial.net/amplifier/inverting-amplifier/) so that the final output voltage is between 0 to 20 volts. 
 
 Export the schematic to a png file, name it `dac_circuit_schematic.png`. This will be part of your submission. 
 
