@@ -59,16 +59,19 @@ Export the schematic to a png file, name it `dac_circuit_schematic.png`. This wi
 All files are to be submitted via Vocareum in teams. 
 For recording your demo video we recommend using Zoom.
 
-| Points | Description | 
-| ------ | ----------- |
-| 1      | Circuit schematic for ADC looks clean and professional |
-| 1      | Circuit schematic for DAC looks clean and professional |
-| 4      | For the ADC circuit, with all resistors set to the same value, show the 2-bit output is correct -using a voltage probe- for four different values of the input corresponding to each possible output value. |
-| 4      | Show using a voltage probe that the output is correct for all 8 possible values of the 3-bit input in the DAC circuit. |
-| 2      | Question 1 |
-| 2      | Question 2 |
-| 2      | Question 3 |
-| 2      | Question 4 |
-| 2      | Question 5 |
+| Points         | Description | 
+| -------------- | ----------- |
+| **Schematics** |             |
+| 1              | Circuit schematic for ADC looks clean and professional |
+| 1              | Circuit schematic for DAC looks clean and professional |
+| **Demo Video** |             |
+| 4              | For the ADC circuit, with all resistors set to the same value, show the 2-bit output is correct -using a voltage probe- for four different values of the input corresponding to each possible output value. |
+| 4              | Show using a voltage probe that the output is correct for all 8 possible values of the 3-bit input in the DAC circuit. |
+| **Questions**  |             |
+| 2              | Question 1 |
+| 2              | Question 2 |
+| 2              | Question 3 |
+| 2              | Question 4 |
+| 2              | Question 5 |
 
 Total Possible: 20
