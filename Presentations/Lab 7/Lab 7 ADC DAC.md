@@ -20,7 +20,7 @@ class: middle, center
 
 # Motivation
 
-<div style="width: 100%; height: 100%; background-image: url(https://wiki.analog.com/_media/university/courses/electronics/text/chptr20-f1.gif);background-repeat: no-repeat; background-size: contain;"></div>
+<div style="width: 100%; height: 100%; background-image: url(./ADC.gif);background-repeat: no-repeat; background-size: contain;"></div>
 
 ???
 
