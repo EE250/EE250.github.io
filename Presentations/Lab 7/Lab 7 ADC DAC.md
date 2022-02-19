@@ -24,8 +24,30 @@ class: middle, center
 
 ???
 
+Analog: 
+- continuous in quantity (voltage)
+- continuous in time
+
+Digital: 
+- discrete in quantity (few bits)
+- discrete in time
+
+Our strategy: sample the analog periodically, to create a digital signal.
+
+That leaves the question: given some voltage at some instant in time, how do we get bits out of it?
+
+---
+
+<div style="width: 100%; height: 100%; background-image: url(./Flash-ADC.jpg);background-repeat: no-repeat; background-size: contain;"></div>
+
+???
+
+
+
 ---
 
 ### Image Sources
 
 https://wiki.analog.com/_media/university/courses/electronics/text/chptr20-f1.gif
+
+https://microcontrollerslab.com/flash-adc-working-3-bit-example-advantages-applications/
