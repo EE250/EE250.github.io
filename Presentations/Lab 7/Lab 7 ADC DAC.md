@@ -42,6 +42,25 @@ That leaves the question: given some voltage at some instant in time, how do we 
 
 ???
 
+- Flash ADC
+- uses a "ladder" of resistors
+    - so called because voltage gets higher as you go up
+
+Ladder
+- top is reference voltage, say 5V
+- bottom is ground
+- all resistances are the same here, so voltage is in even steps
+- compare these to the input voltage
+
+Triangles are Op Amps
+- amplify differences in voltage
+- if higher, on, if lower, off
+- ask an EE major! (not Elijah)
+
+Then use combinational logic to output bits
+
+---
+
 
 
 ---
