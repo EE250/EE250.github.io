@@ -1,5 +1,7 @@
 # Presentations
 Slides are made using [remarkise](https://remarkjs.com/remarkise).
+- Project transforms Markdown into slides using JavaScript.
+- A local copy of the JavaScript script is hosted in this repository for reliability.
 
 Presentations are hosted on GitHub pages.
 
