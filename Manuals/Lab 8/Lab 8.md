@@ -85,7 +85,8 @@ For `get_peak_frqs()`, you will need to use your experience from Part 2 to progr
 Screenshot your terminal showing the output of `python decode.py audio/sample3.mp3`
 Save this as `decode_demo.png` and upload to Vocareum.
 
-**Question 2**: *Describe your algorithm. Explain what each of these functions do:* - `get_peak_frqs()`
+**Question 2**: *Describe your algorithm. Explain what each of these functions do:* 
+- `get_peak_frqs()`
 - `get_max_frq()`
 - `get_number_from_frq()`
 
