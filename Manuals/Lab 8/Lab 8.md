@@ -90,7 +90,7 @@ Save this as `decode_demo.png` and upload to Vocareum.
 - `get_number_from_frq()`
 
 |   Points  |                                                              Description                                                              |
-|:---------:|:-------------------------------------------------------------------------------------------------------------------------------------:|
+|:---------:|:--------------------------------------------------------------------------------------------------------------------------------------|
 |    Demo   | sample3_1.png, … sample3_10.png, decode_demo.png (or zip file containing these if the files exceed the size limit)                    |
 |     3     | The analysis figures are submitted (all 10 files). The plots correctly display the overview, tone window, and FFT of the tone window. |
 |     2     | The decode script outputs the peak frequencies for each sample, and prints the decoded phone number.                                  |
