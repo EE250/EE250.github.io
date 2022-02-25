@@ -89,6 +89,10 @@ If you go through the equations on the page, you'll find the output voltage is n
 
 Your last task is to invert the voltage so that it is the same magnitude, but positive. (Hint: use an inverting Op Amp)
 
+### A Note on Voltages
+- What's the maximum output of a DAC? 
+- It's not the max voltage? It's 2^n -1 / 2^n.
+
 ---
 
 ### Image Sources
