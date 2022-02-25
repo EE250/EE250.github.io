@@ -93,6 +93,8 @@ Your last task is to invert the voltage so that it is the same magnitude, but po
 - What's the maximum output of a DAC? 
 - It's not the max voltage? It's 2^n -1 / 2^n.
 
+TODO: talk about inverting op amps and non-inverting op amps
+
 ---
 
 ### Image Sources
