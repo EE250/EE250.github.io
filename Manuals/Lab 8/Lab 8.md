@@ -89,19 +89,19 @@ Save this as `decode_demo.png` and upload to Vocareum.
 - `get_max_frq()`
 - `get_number_from_frq()`
 
-|   Points  |                                                              Description                                                              | 1336 Hz | 1477 Hz |
-|:---------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:-------:|:-------:|
-|    Demo   | sample3_1.png, … sample3_10.png, decode_demo.png (or zip file containing these if the files exceed the size limit)                    |    2    |    3    |
-|     3     | The analysis figures are submitted (all 10 files). The plots correctly display the overview, tone window, and FFT of the tone window. |    5    |    6    |
-|     2     | The decode script outputs the peak frequencies for each sample, and prints the decoded phone number.                                  |    8    |    9    |
-|    Code   | analyze.py, decode.py                                                                                                                 |    0    |    #    |
-|     1     | List all team member names and the link to your github repo in the comments at the top of each file.                                  |         |         |
-|     3     | Each plot in analyze.py plots the correct values along the x and y axes.                                                              |         |         |
-|     1     | Plots all have a subplot title, x label, and y label.                                                                                 |         |         |
-|     2     | get_peak_frqs() correctly returns the two peak frequencies.                                                                           |         |         |
-|     2     | get_number_from_frq() returns the correct DTMF tone table entry.                                                                      |         |         |
-|     2     | main() correctly processes each slice of the sample and prints the two peak frequencies. main() prints the decoded input.             |         |         |
-| Questions | lab08_writeup.txt                                                                                                                     |         |         |
-|     1     | Question 1                                                                                                                            |         |         |
-|     3     | Question 2                                                                                                                            |         |         |
-|           | Total Possible: 20                                                                                                                    |         |         |
+|   Points  |                                                              Description                                                              |
+|:---------:|:-------------------------------------------------------------------------------------------------------------------------------------:|
+|    Demo   | sample3_1.png, … sample3_10.png, decode_demo.png (or zip file containing these if the files exceed the size limit)                    |
+|     3     | The analysis figures are submitted (all 10 files). The plots correctly display the overview, tone window, and FFT of the tone window. |
+|     2     | The decode script outputs the peak frequencies for each sample, and prints the decoded phone number.                                  |
+|    Code   | analyze.py, decode.py                                                                                                                 |
+|     1     | List all team member names and the link to your github repo in the comments at the top of each file.                                  |
+|     3     | Each plot in analyze.py plots the correct values along the x and y axes.                                                              |
+|     1     | Plots all have a subplot title, x label, and y label.                                                                                 |
+|     2     | get_peak_frqs() correctly returns the two peak frequencies.                                                                           |
+|     2     | get_number_from_frq() returns the correct DTMF tone table entry.                                                                      |
+|     2     | main() correctly processes each slice of the sample and prints the two peak frequencies. main() prints the decoded input.             |
+| Questions | lab08_writeup.txt                                                                                                                     |
+|     1     | Question 1                                                                                                                            |
+|     3     | Question 2                                                                                                                            |
+|           | Total Possible: 20                                                                                                                    |
