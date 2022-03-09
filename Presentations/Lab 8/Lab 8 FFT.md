@@ -3,14 +3,48 @@ class: middle, center
 # Lab 8
 ### Fast Fourier Transform
 
+???
+
+Welcome all!
+This week you'll learn to use the Fast Fourier Transform to analyze signals.
+
 ---
 
-class: middle, center
-### What is a Fourier series?
+### Contents
+- What is a Fourier series / transform?
+- What do we use it for?
+    - Advantages
+- Lab Tasks
+
+---
+
+### Fourier
+Series: Composes circles into a shape
+Transform: breaks shape into circles
+Sin / Cos: projections of a circle
 
 ???
 
-Simply put, we can add sine waves together to create almost any waveform.
+To start, let's watch [a video](https://youtube.com/watch?v=r6sGWTCMz2k&t=0s).
+- We see a bunch of arrows drawing a shape.
+- Follow a single arrow, we see it rotates at a constant rate, tracing a circle
+- By adding together a bunch of circles, we can get almost any shape – this is a Fourier series.
+
+Of course, the shape is not and choice of circles is not an accident. 
+We started with the shape, and calculated the Fourier series to make it.
+The math behind that is beyond the scope of this lab.
+
+Conceptually, that's what you need to understand:
+- fourier series adds circles to make a shape
+- fourier transform tells us, given a shape, what the fourier series is
+    - it decomposes a shape into circles
+
+---
+
+
+
+- https://youtu.be/r6sGWTCMz2k?t=521
+We can add sine waves together to create almost any waveform.
 Here are some really beautiful illustrations: https://www.youtube.com/watch?v=r6sGWTCMz2k
 - Notice how, even for shapes that are very NOT circular, and lines that are very NOT wavy, we can make them, out of sine waves.
 - There's a lot of math we're going to step over here, and simply say:
@@ -58,3 +92,12 @@ Visualize the FFT.
 Then computationally use the FFT.
 
 Note: you will have 2 peaks! You will need to figure out how to split them. 
+
+---
+
+# Fin.
+
+???
+
+Notes:
+- [Illustration of composing 2 circles](https://jackschaedler.github.io/circles-sines-signals/dft_frequency.html)
