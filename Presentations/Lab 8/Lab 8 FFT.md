@@ -6,7 +6,7 @@ class: middle, center
 ???
 
 Welcome all!
-This week you'll learn to use the Fast Fourier Transform to analyze signals.
+This week you'll use the Fast Fourier Transform to analyze signals.
 
 ---
 
@@ -18,37 +18,100 @@ This week you'll learn to use the Fast Fourier Transform to analyze signals.
 
 ---
 
-### Fourier
-Series: Composes circles into a shape
-Transform: breaks shape into circles
-Sin / Cos: projections of a circle
+class: middle, center
+
+# Fourier Series
+### Composes circles into a shape
+
+# Fourier Transform
+### Decomposes shape into circles
 
 ???
 
-To start, let's watch [a video](https://youtube.com/watch?v=r6sGWTCMz2k&t=0s).
-- We see a bunch of arrows drawing a shape.
-- Follow a single arrow, we see it rotates at a constant rate, tracing a circle
-- By adding together a bunch of circles, we can get almost any shape – this is a Fourier series.
-
-Of course, the shape is not and choice of circles is not an accident. 
-We started with the shape, and calculated the Fourier series to make it.
-The math behind that is beyond the scope of this lab.
-
-Conceptually, that's what you need to understand:
-- fourier series adds circles to make a shape
+Conceptually:
+- fourier series is a set of circles that compose a shape
 - fourier transform tells us, given a shape, what the fourier series is
     - it decomposes a shape into circles
 
+[Demonstration](https://youtube.com/watch?v=r6sGWTCMz2k&t=0s)
+- We see a bunch of arrows drawing a shape.
+- Focus on one arrow. It rotates at a constant rate, tracing a circle
+- By composing circles, we get a shape 
+    – this is a Fourier series.
+
+The shape and choice of circles is not an accident. 
+Starting with the shape, we used the Fourier transform to derive the series.
+
+The method (and math) is beyond the scope of this class.
+- EE students may encounter it.
+
+(Reiterate Concepts)
+
 ---
 
+class: middle, center
 
+# Waves
+### Periodic Movement In Space
 
-- https://youtu.be/r6sGWTCMz2k?t=521
-We can add sine waves together to create almost any waveform.
-Here are some really beautiful illustrations: https://www.youtube.com/watch?v=r6sGWTCMz2k
-- Notice how, even for shapes that are very NOT circular, and lines that are very NOT wavy, we can make them, out of sine waves.
-- There's a lot of math we're going to step over here, and simply say:
-- The fourier transform takes a wave, and decomposes it into a bunch of sine waves.
+???
+
+Can someone give me an example of an IRL wave?
+- Sea waves? - these are sinusoidal
+- waves don't have to be!
+- wave = periodic movement in space
+    - square wave, sawtooth wave, triangle wave, etc.
+
+Point: 
+- this is a 2D wave
+- shape is drawn periodically
+- fourier transform breaks 2D waves into circles
+
+---
+
+class: middle, center
+
+# Sin / Cos
+### [Projections of a circle](https://jackschaedler.github.io/circles-sines-signals/sincos.html)
+
+???
+
+[Wave Demo](https://youtu.be/r6sGWTCMz2k?t=521)
+
+The 1D Fourier Transform
+- We start with circles, they're pretty!
+- usually, you'll encounter 1D waves, broken into sinusoids
+- point: this is the same, simply projected!
+- Recall sin/cos are just projections
+    - that is, they look at 1 dimension of a 2D rotation
+
+---
+
+class: middle, center
+
+# Questions!
+
+---
+
+class: middle, center
+# Fourier Transform & Information
+### Phase
+### Amplitude
+### Frequency
+
+???
+
+Return to the music note.
+- It "contain"s the circles, we "extract" them with the Fourier transform
+- Circles hold information: phase, amplitude, frequency
+- Transmitting the wave is like transmitting all information in the circles
+
+Similarly, a 1D wave contains a range of frequencies at different amplitudes.
+- engineer speak for: Music!
+
+Your ears are a great signal analysis tool for music.
+- (Play Sample Here)
+- you can hear the notes – that's information!
 
 ---
 
@@ -56,42 +119,59 @@ Here are some really beautiful illustrations: https://www.youtube.com/watch?v=r6
 
 ???
 
-From an engineering perspective, how can we use the Fourier transform?
+What that looks like
+- this is a lab 8 screenshot
+- let's break the plot down
 
-We can use it to get information from a continuous wave.
-- specifically, we're going to treat the amplitudes and frequencies as information.
-- this is similar to, but different from the level based information in Lab 7.
-  - With ADCs, we're capturing the level (e.g. of voltage)
-  - With the FFT, we're capturing the frequency (e.g. of a sine wave)
+Top Left
+- Time plot
+- Wave density due to high frequency
 
-So, what is the advantage of a different approach?
+Top Right
+- Slice of the time plot, focusing on the first section
+- Wave is clearer
 
----
-
-<div style="width: 100%; height: 100%; background-image: url(./Fig-1.png);background-repeat: no-repeat; background-size: contain;"></div>
-
-???
-
-To encode numbers when phone dialing. (e.g. Press 1 for more information)
-
-\[Play sample audio here.\]
-
-You may be able to make out the notes, as well as some noise.
-- Noise might mess with a level based signalling system (e.g. if you tried to pass numbers by voltage level). 
-- frequncy based systems are resilient to this kind of noise.
-    - but e.g. police sirens might mess it up.
+Bottom
+- Frequency plot – result of the Fourier transform
+- see 2 notes
 
 ---
 
-### Task
+<div style="width: 100%; height: 100%; background-image: url(./Fig-2.png);background-repeat: no-repeat; background-size: contain;"></div>
 
 ???
 
-Visualize the FFT.
+- So, what information does this encode?
+- One digit in a phone number!
 
-Then computationally use the FFT.
+- To encode numbers when phone dialing. 
+    - (e.g. Press 1 for more information)
 
-Note: you will have 2 peaks! You will need to figure out how to split them. 
+---
+
+# Tasks
+### Create Plots
+### Find Number
+### Find it Programmatically
+
+???
+
+Tasks: 
+- Visualize the FFT.
+- Then computationally use the FFT.
+
+---
+
+class: middle, center
+
+# Noise
+
+???
+
+(Play Noisy Sample 3)
+- Resilient to white noise, which might mess up a level based system
+- However, narrow interference is still a problem
+    - e.g. police siren.
 
 ---
 
@@ -101,3 +181,10 @@ Note: you will have 2 peaks! You will need to figure out how to split them.
 
 Notes:
 - [Illustration of composing 2 circles](https://jackschaedler.github.io/circles-sines-signals/dft_frequency.html)
+
+One cool thing: 
+- using circles to make **not** circular shapes
+- even a "sharp" corner! 
+
+Detail: all circles use discrete frequencies
+    - i.e circle 2 rotates 2x as fast as circle 1
