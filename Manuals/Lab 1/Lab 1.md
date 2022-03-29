@@ -26,10 +26,10 @@ If you have not, please set up a GitHub account [connected to your USC account](
 You may want to edit your code on your Virtual Machine.
 
 To do this, please install any one of these on your VM:
-1. [VS code by Microsoft](https://code.visualstudio.com/)(recommended)
+1. [VS Code by Microsoft](https://code.visualstudio.com/)(recommended)
 2. [Atom Editor](https://atom.io/)
 3. [Sublime Text 2/3](https://www.sublimetext.com/)
-4. [Micro Editor](https://micro-editor.github.io)(optional,recommended)
+4. [Micro Editor](https://micro-editor.github.io)(optional, recommended)
  
 ### 1d) Flashing Raspberry Pi OS
 
