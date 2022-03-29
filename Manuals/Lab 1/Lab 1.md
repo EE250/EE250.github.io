@@ -1,4 +1,9 @@
 # 1. Setup
+Welcome to EE250!
+This first lab will walk you through setup for two things you will use throughout these labs:
+1. A Linux Virtual Machine
+2. A Raspberry Pi
+
 ### 1a) Linux Virtual Machine
 
 To ensure all students have the same coding environment, we require students to use a Linux Virtual Machine.
