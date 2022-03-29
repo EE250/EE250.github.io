@@ -9,3 +9,7 @@ Lab 7
 Lab 8
 - [Slides](https://ee250.github.io/Presentations/Lab%208/Lab%208%20FFT.html#1)
 - [Notes](https://github.com/EE250/EE250.github.io/blob/main/Presentations/Lab%208/Lab%208%20FFT.md)
+
+Lab 10
+- [Slides](https://ee250.github.io/Presentations/Lab%2010/Lab%2010.html#1)
+- [Notes](https://github.com/EE250/EE250.github.io/blob/main/Presentations/Lab%2010/Lab%2010.md)
