@@ -1,3 +1,7 @@
+Lab 1
+- [Slides](https://ee250.github.io/Presentations/Lab%201/Lab%201%20Linux#1)
+- [Notes](https://github.com/EE250/EE250.github.io/blob/main/Presentations/Lab%201/Lab%201%20Linux.md)
+
 Lab 6
 - [Slides](https://ee250.github.io/Presentations/Lab%206/Lab%206%20REST#1)
 - [Notes](https://github.com/EE250/EE250.github.io/blob/main/Presentations/Lab%206/Lab%206%20REST.md)
