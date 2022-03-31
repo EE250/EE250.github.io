@@ -43,8 +43,9 @@ It's watching your server (computer) for overloaded CPU, RAM, storage.
 class: middle, center
 
 # Monitoring Stack
-### Gather, Transmit, Display
-### Telegraf, Influx, Grafana
+### Gather / Transmit – Telegraf
+### Store - Influx
+### Display – Grafana
 
 ???
 
