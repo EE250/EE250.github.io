@@ -6,9 +6,11 @@ class: middle, center
 ---
 
 # Contents
-- Class Overview
+- What is Linux?
 - Why Linux?
 - Lab 1 Tasks
+
+??? 
 
 ---
 
