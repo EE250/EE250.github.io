@@ -43,3 +43,6 @@ Submission:
 - Labs are submitted on Vocareum
 - Labs are due the next Friday
 
+Information:
+- we are trialling a QnA system on Github
+- you can find slides on Github
