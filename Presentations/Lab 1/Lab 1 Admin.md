@@ -39,10 +39,17 @@ Here's how labs are scheduled:
 Downloading:
 - Labs are downloaded from Github
 
-Submission:
-- Labs are submitted on Vocareum
-- Labs are due the next Friday
-
 Information:
 - we are trialling a QnA system on Github
 - you can find slides on Github
+
+---
+class: middle, center
+
+# Lab Submission
+
+???
+
+Submission:
+- Labs are submitted on Vocareum
+- Labs are due the next Friday

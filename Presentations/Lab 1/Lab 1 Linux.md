@@ -10,46 +10,44 @@ class: middle, center
 - Why Linux?
 - Lab 1 Tasks
 
-??? 
-
 ---
 
-# Class Overview
-Internet of Things
+<div style="width: 100%; height: 100%; background-image: url(./os.png);background-repeat: no-repeat; background-size: contain;"></div>
+
+???
+
+You probably recognize Windows and macOS, but when I started school, I did not know Linux.
 
 ---
-
 class: middle, center
 
-# Who uses Linux?
-Amazon, Microsoft, Google, Facebook
+# What is Linux?
 
 ???
 
-You probably use Windows or a Mac. Does anyone here use a linux computer?
-
-So, why do we teach linux? Because it is an industry standard.
+Like the other 2, Linux is an operating system. 
+- it manages hardware like CPUs, USB Ports, and WiFi modems
+- it lets programmers (like you) write software that doesn't think too hard about the hardware
 
 ---
-
 # Why Linux?
-Open Source, Free
+### Amazon, Google, Apple, Microsoft
 
 ???
 
-Why is linux so popular?
+We may not see Linux as users, but developers should be familiar with it. 
+- it's overwhelmingly the Operating System of web servers
+- it's used by all these companies, and they employ engineers to maintain Linux systems
 
-Linux is open source, meaning the code is available for anyone to use, free of copyright.
-
-Therefore, unlike macOS and Windows, you can run Linux without licensing the operating system.
-
-So to summarize, as a consumer, you'll rarely use Linux.
-But as a developer, (particularly of servers), you'll use it professionally.
+Why is Linux so popular?
+- Open Source – code is available for free to anyone
+- No licensing fees: great for profits
+- Community maintained: lets you benefit from bug fixes (e.g. OpenSSL)
 
 ---
 
 # Using Linux
-The Shell
+### The Shell
 
 ???
 
@@ -60,10 +58,13 @@ Using Linux can be challenging:
 Why use the shell?
 - Often the only way
 - Reliable and fast
+  - especially for "low spec" machines that might struggle to render a GUI
+  - fast over bad network connections
 
 As the name "command prompt" implies, the shell is how you tell the computer to do things:
 - previously, it might be "run my C program" (CS103, EE109)
-- now, 
+- now, it will be more complicated
+  - ideally, you'll learn to look at, move, copy, and delete files
 
 ---
 
